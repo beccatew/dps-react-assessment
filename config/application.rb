@@ -20,7 +20,7 @@ module DpsReactJsHomework
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
-
+    # config.autoload_paths << Rails.root.join('lib')
     config.action_dispatch.default_headers = {
       'X-Frame-Options' => 'ALLOWALL'
     }
